@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Product Check",
+    'name': "Product Check in BOM",
 
     'summary': """
     """,
 
     'description': """
-        Product Check in MRP
+        Product Check in BOM
         
         This modules uses ``product_check`` (AbAKUS it-solutions's sale repo) to clearly tell the user that the product used in the BOM is not checked.
         
