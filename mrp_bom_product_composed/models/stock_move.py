@@ -15,6 +15,5 @@ class StockMove(models.Model):
     def _compute_product_contains_bom(self):
         for line in self:
             line.product_contains_bom = False
-            _logger.debug('\nbom_count : %s\n', line.product_id.bom_count)
             if line.product_id.bom_count > 0:
                 line.product_contains_bom = True
