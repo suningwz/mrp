@@ -1,0 +1,7 @@
+
+*.pyc
+*.pyc
+__pycache__/
+mrp_scheduler_recursive_bom/models/__pycache__/__init__.cpython-35.pyc
+mrp_scheduler_recursive_bom/models/__pycache__/procurement_rule.cpython-35.pyc
+mrp_scheduler_recursive_bom/models/__pycache__/procurement_rule.cpython-35.pyc
