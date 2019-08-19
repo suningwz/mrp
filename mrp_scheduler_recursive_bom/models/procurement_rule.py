@@ -12,7 +12,7 @@ class ProcurementRule(models.Model):
     @api.multi
     def _run_manufacture(self, product_id, product_qty, product_uom, location_id, name, origin, values):
         result = super(ProcurementRule, self)._run_manufacture(product_id, product_qty, product_uom, location_id, name, origin, values)
-        self.env['procurement.group'].run_scheduler()
+        self.env['procurement.group'].run_scheduler(True)
         if not result:
             raise exceptions.UserError("Error creating Manufacturing Order")
         return result
