@@ -15,6 +15,7 @@
 
     'data': [
         'views/mrp_bom_view.xml',
+        'views/mrp_production_view.xml'
     ],
 
     'installable': True
