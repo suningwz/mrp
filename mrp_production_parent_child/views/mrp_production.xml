@@ -17,7 +17,7 @@
         <field name="inherit_id" ref="mrp.view_mrp_production_filter"/>
         <field name="arch" type="xml">
             <xpath expr="//group" position="inside">
-                <filter name="groupby_parent" string="Parent" context="{'group_by':'parent_mo_id'}"/>
+                <filter name="groupby_parent" string="Finished Product" context="{'group_by':'parent_mo_id'}"/>
             </xpath>
         </field>
     </record>
