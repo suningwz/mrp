@@ -8,8 +8,8 @@ _logger = logging.getLogger(__name__)
 class MrpProduction(models.Model):
     _inherit = 'mrp.production'
 
-    parent_mo_id = fields.Many2one('mrp.production', string="Parent")
-    is_parent = fields.Boolean(string="Is a Parent", readonly=True)
+    parent_mo_id = fields.Many2one('mrp.production', string="Finished Poduct")
+    is_parent = fields.Boolean(string="Is a finished product", readonly=True)
 
     # @api.one
     # def _compute_is_parent(self):
